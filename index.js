@@ -1450,4 +1450,4 @@ if (message.content.startsWith("dfbj5"))
 	}
 })
 
-bot.login("process.env.TOKEN");
+bot.login(process.env.TOKEN);
