@@ -1450,4 +1450,4 @@ if (message.content.startsWith("dfbj5"))
 	}
 })
 
-bot.login("NTY0NDI0MzY3NzgyNDk0MjM4.XUR0nA.Pwx2Y0ZYPXK-PGGldCkFdylxDhw");
+bot.login("process.env.TOKEN");
