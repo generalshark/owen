@@ -80,8 +80,6 @@ bot.on('ready', function() {
 //Accueil et départ des membres et attribution d'un rôle
 
 bot.on("guildMemberAdd", member => {
-	let role = member.guild.roles.find("name", "Sans licence")
-	member.addRole(role)
 	random()
 	if (randnum ==1){
 	member.guild.channels.find("name", "discussion").send(`1️ ➡️ :alegendary:  hey ! un ${member} sauvage apparaît. :alegendary:.`)
@@ -98,7 +96,6 @@ bot.on("guildMemberAdd", member => {
 	if (randnum ==4){
 	member.guild.channels.find("name", "discussion").send(`4 ➡️ :eyes: ${member}, vient de se glisser dans le serveur. chuuut plus un bruit ! 😉.`)
 	}
-	
 }) 
 
 bot.on("guildMemberRemove", member => {
