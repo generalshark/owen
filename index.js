@@ -115,7 +115,7 @@ bot.on("guildMemberRemove", member => {
 	}
 
 	if (randnum ==4){
-	member.guild.channels.find("name", "départs").send(`4 ➡️ Patience est mère de vertus, ${member} àragequit .`)
+	member.guild.channels.find("name", "départs").send(`4 ➡️ Patience est mère de vertus, ${member} à ragequit .`)
 	}
 }) 
 
