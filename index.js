@@ -71,7 +71,7 @@ function randombj2(min, max){
 
 //Instance
 bot.on('ready', function() {
-	bot.user.setGame('Anthem').catch(console.error)
+	bot.user.setGame('Anthem™️ cataclysm').catch(console.error)
 	console.log("\n\n=======================================================")
 	console.log("Le bot s'est correctement connecté au serveur Discord")
 	console.log("=======================================================\n\n")
